@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output 태그 연습</title>
+</head>
+<body>
+    <form oninput="name.value=flower.value; count.value=flower.value.length">
+        <label>좋아하는 꽃 이름을 입력하세요<br>
+            <input type="text" name="flower" id="flower">
+        </label><br><br>
+
+        <table border="1">
+            <tr>
+                <th>입력한 내용은</th>
+                <td><output name="name">입력결과</output></td>
+            </tr>
+            <tr>
+                <th>입력한 글자수는</th>
+                <td><output name="count">글자 수</output></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

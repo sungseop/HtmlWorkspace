@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "맑은 고딕", "돋움";
+    font-size: 14px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+header {
+    position: relative; /* 부모에 relative가 있으면 자식요소의 기준은 문서 전체가 아닌 부모 위치 기준으로 움직임 */
+    background-image: url("../../images/bg.png");
+    height: 280px;
+    background-repeat: no-repeat;
+}
+header h1 {
+    position: absolute;
+    font-size: 48px;
+    color: rgb(254, 254, 203);
+    top: 80px;
+    right: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+header h2 {
+    position: absolute;
+    font-size: 30px;
+    top: 150px;
+    right: 20px;
+    color: yellow;
+    text-shadow: 1px 1px 1px #000;
+}
+.navi {
+    width: 960px;
+    height: 50px;
+    background-color: rgb(39, 23, 23);
+}
+.navi ul {
+    list-style: none;
+    padding: 10px;
+}
+.navi ul li {
+    display: inline-block;
+    font-size: 1.2em;
+}
+.navi a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    width: 150px;
+    padding: 0px 30px 0px 10px;
+}
+.navi a:hover {
+    color: #ff0;
+    text-shadow: 1px 2px 2px #999;
+}

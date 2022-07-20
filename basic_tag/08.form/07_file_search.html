@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file과 search</title>
+</head>
+<body>
+    <h2>file과 search 입력형식</h2>
+    <form>
+        <label>파일선택:
+            <input type="file" name="upload_file">
+        </label><br><br>
+        <label>이미지 파일 선택:
+            <input type="file" name="upload_image" accept="image/*" multiple> <!--multiple=여러개선택가능-->
+        </label><br><br>
+        <label>검색어 입력: 
+            <input type="search" name="word">
+        </label>
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>

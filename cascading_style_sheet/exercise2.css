@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.container {
+    width: 960px;
+}
+header {
+    position: relative;
+    margin-bottom: 10px;
+}
+header img {
+    display: inline-block;
+}
+header ul {
+    display: inline-block;
+}
+header li {
+    display: inline-block;
+}
+header .menu {
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(95, 123, 171);
+    padding: 10px;
+    left: 270px;
+    top: 20px;
+}
+header .login {
+    position: absolute;
+    bottom: 25px;
+    left: 650px;
+}
+header .login a{
+    color: rgb(217, 214, 216);
+    text-decoration: none;
+}
+header .login li {
+    color: rgb(217, 214, 216);
+    border-right: 1px solid;
+}
+header .menu a {
+    color: white;
+    text-decoration: none;
+}
+aside {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+aside form {
+    background-color: rgb(150, 173, 205);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+aside table {
+    background-color: antiquewhite;
+}
+aside ul {
+    list-style: none;
+    height: 680px;
+    background-color: rgb(205, 203, 205);
+    border-left: 10px solid rgb(158, 151, 159);
+    border-right: 10px solid rgb(158, 151, 159);
+    border-bottom: 10px solid rgb(158, 151, 159);
+}
+aside ul a {
+    text-decoration: none;
+    color: black;
+}
+aside ul li {
+    margin-bottom: 15px;
+}
+article {
+    float: left;
+    width: 650px;
+}
+article ul {
+    list-style: none;
+}
+article ul img {
+    float: left;
+}
+footer {
+    clear: both;
+    background-color: rgb(158, 151, 159);
+    padding: 1px;
+    text-align: center;
+}

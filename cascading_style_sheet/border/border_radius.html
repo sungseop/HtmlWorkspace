@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>둥근 테두리 설정하기</title>
+    <style>
+        .round {
+            width: 150px;
+            height: 100px;
+            border: 2px solid red;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        #bg {
+            border-radius: 50px;
+            background: url(../images/doll.jpg) no-repeat; /* no-repeat: 이미지가 작은경우 반복표시되는걸 막음 */
+            background-size: cover;
+        }
+        .round2 {
+            width: 150px;
+            height: 100px;
+            border: 2px solid red;
+            border-top-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="round"></div>
+    <div class="round" id="bg"></div>
+    <div class="round2"></div>
+</body>
+</html>

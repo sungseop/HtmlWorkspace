@@ -1,0 +1,149 @@
+*{
+	margin:0;
+	padding:0;
+}
+#container{
+	width: 715px;
+	margin: 0 auto;
+}
+#logo{
+	float:left;
+}
+#submenu{
+	width: 100px;
+	height: 24px;
+	float:right;
+	margin-top: 10px;
+}
+#submenu ul{
+	list-style: none;
+}
+#submenu ul li{
+	float:left;
+}
+#submenu ul li a{
+		font-family: "맑은 고딕";
+		font-size: 9pt;
+		text-decoration:none;
+		color:#999999;
+}
+#submenu ul li:first-child a{
+	padding-right: 8px;
+	border-right: 1px solid #999999;
+}
+#submenu ul li:last-child a{
+	padding-left: 8px;
+}
+#mainmenu{
+	float:right;
+	width: 500px;
+	height: 34px;
+	background-color:#4f7cae;
+}
+#mainmenu ul{
+	list-style: none;
+}
+#mainmenu ul li{
+	float:left;
+	line-height:34px;
+}
+#mainmenu ul li a{
+	padding-right:10px;
+	padding-left:10px;
+	font-family:"맑은 고딕";
+	font-size: 12px;
+	text-decoration:none;
+	color:#fff;
+	border-right: 1px solid #fff;
+}
+#mainmenu ul li:last-child a{
+	border-right:none;
+}
+#section1{
+		clear:both;
+		height:220px;
+}
+#search{
+	width:200px;
+	height: 211px;
+	float: left;
+	background:-ms-linear-gradient(top, #8ab0d0 0%, #acc7d0 100%);
+	background:-webkit-linear-gradient(top,#8ab0d0 0%, #acc7d0 100%);
+}
+form{
+	padding-top: 30px;
+	padding-left: 20px;
+}
+select{
+	margin: 5px;
+}
+#main_img{
+	width:500px;
+	float:right;
+}
+
+#section2{
+	clear: both;
+}
+#list{
+	width:200px;
+	height: 600px;
+	float:left;
+	background-color:#999999;
+}
+.top1{
+	background-color:#89b0cf;
+}
+.bottom1{
+	width: 180px;
+	margin: 0 auto;
+	background-color:#CCCCCC;
+}
+.bottom1 ul{
+	list-style: none;
+}
+.bottom1 ul li{
+	padding:7px 0 7px 20px;
+	font-size: 13px;
+	font-family:"맑은 고딕";
+	color:#333333;
+	font-weight:bold;
+}
+#site{
+	width: 500px;
+	height:600px;
+	float:right;
+    background-color:#999999;
+}
+.top2{
+	background-color:#89b0cf;
+}
+.text{
+	width: 480px;
+	height: 130px;
+	background-color: #CCCCCC;
+   margin: 10px 0 0 10px;
+}
+.text img{
+	float:left;
+	padding: 15px 10px 15px 10px;
+}
+.text p{
+	padding-top:15px;
+	font-size:13px;
+	font-family:"맑은 고딕";
+}
+footer{
+	clear:both;
+	margin-top: 607px;
+	width: 715px;
+	background-color: #999999;
+    height: 30px;
+}
+footer p{
+	font-size: 12px;
+	font-weight:bold;
+	color:#333333;
+	line-height: 30px;
+	text-align:center;
+}

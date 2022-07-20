@@ -1,0 +1,5 @@
+@charset "utf-8";
+p {
+    border: 3px solid #ff0000; /* 테두리 설정 */
+    color: green;              /* 글자색 */
+}
